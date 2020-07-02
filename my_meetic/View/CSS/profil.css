@@ -1,0 +1,33 @@
+body {
+    font: 14px/35px 'Montserrat', sans-serif;
+    margin: auto;
+    background-image: url("https://www.itl.cat/pngfile/big/188-1889889_3840x2560-woman-field-portrait-and-asian-hd-4k.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 133vh;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 3px;
+    padding: 70px 80px;
+    height: 420px;
+}
+.text-center{
+    color: white;
+    font-size: 18px;
+    margin: -105px 0 0 0;
+    display: block;
+    text-align: center;
+}
+#Wac {
+    position: relative;
+    width: 185px;
+    top: -30px;
+    left: 32%;
+  }

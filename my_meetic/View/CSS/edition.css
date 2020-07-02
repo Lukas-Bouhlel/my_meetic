@@ -1,0 +1,87 @@
+body {
+    font: 14px/35px 'Montserrat', sans-serif;
+    margin: auto;
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1807/Girl-red-skirt-flowers-wreath-love-heart_3840x2160.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 133vh;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 3px;
+    padding: 70px 80px;
+    height: 455px;
+}
+.text-center{
+color:white;	
+font-size: 18px;
+margin: -75px 0 0 0;
+display: block;
+text-align: center;
+}
+.input-container{
+	position:relative;
+}
+.input-container label{
+	position:absolute;
+	top:-25px;
+	left:0px;
+	font-size:14px;
+	color:white;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:white;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+.btn2{
+    background-color:#e74c3c;
+    outline: none;
+    border: 0;
+    color:white;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.4s, box-shadow 0.4s;
+    position: relative;
+    top: -14px;
+  }
+  .btn2:hover{
+      box-shadow: 14px 10px rgba(66, 66, 66, 0.3);
+      color: white;
+  }
+  .btn2:active{
+      transform: translate3d(1px, 1px, 0px);
+      box-shadow: 14px 14px rgba(66, 66, 66, 0.3);
+  }
+  .btn2:after{
+      position:absolute;
+      background:rgba(0,0,0,0.50);
+      top:0;
+      right:0;
+      width:100%;
+      height:100%;
+  }
+#alerte {
+    color: #e74c3c;
+    font-size: 15px;
+    position: relative;
+    top: -50px;
+}

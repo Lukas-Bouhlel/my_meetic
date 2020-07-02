@@ -1,0 +1,142 @@
+a {
+text-decoration: none;
+}
+ul{
+padding: 0px;
+}
+:after, :before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.pad-15 {
+padding: 15px;
+}
+
+.clear {
+clear: both;
+}
+.clear:after, .clear:before{ 
+content: " ";
+display: table;
+}
+.header {
+background: #273135;
+border-bottom: 1px solid #273135;
+}
+
+a.toggle-nav {
+top: 12px;
+right: 15px;
+position: absolute;
+color: white;
+line-height: 25px;
+font-size: 22px;
+background: #e74c3c;
+padding: 3px 5px;
+border-radius: 1px;
+transform: rotate(90deg);
+}
+
+.header > .left-head {
+width: 250px;
+display: block;
+background:#20282B;
+position:relative;
+}
+.header > .left-head .logo img{
+max-width:150px;
+width:100%;
+}
+.header > .left-head .logo{
+padding:10px 0px 10px 15px;
+}
+.nice-nav {
+width: 250px;
+background: #e74c3c;
+height: 121px;
+transition:all 0.4s ease-in-out 0s;
+float:left;
+}
+.nice-nav.open {
+margin-left: -250px;
+display: block;
+}
+.nice-nav > .user-info {
+padding: 10px 15px;
+color: white;
+border-bottom: 1px solid #ddd;
+min-height: 40px;
+}
+.nice-nav .user-info .user-name,
+.nice-nav .user-info img{float:left;}
+
+.user-info > .user-name h5 {
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.user-info > .user-name span {
+font-size: 85%;
+color: white;
+font-style: italic;
+}
+
+
+.nice-nav li.child-menu span.toggle-right {
+text-align: right;
+display: inline-block;
+position: absolute;
+right: 0;
+padding: 12px;
+top: 0;
+background: #e74c3c;
+bottom: 0;
+}
+
+.nice-nav ul li a {
+padding: 12px;
+background: #e74c3c;
+border-bottom: 1px solid #ddd;
+display: block;
+color: white;
+position: relative;
+}
+
+.nice-nav ul li.child-menu ul {
+background: #aaa;
+display: none;
+}
+
+.nice-nav ul li.child-menu ul li a {
+background: #273135;
+padding: 10px 20px;
+}
+li {
+list-style-type: none; 
+}
+#containerUl {
+position: relative;
+top: -86px;
+}
+#Prenom {
+position: relative;
+top: -31px;
+left: 10px;
+}
+#Nom {
+position: relative;
+top: -74px;
+left: 10px;
+}
+#title {
+    position: absolute;
+    color: white;
+    top: 44px;
+    left: 795px;
+    font-size: 50px;
+  }
+  #title:hover {
+    position: absolute;
+    color: #e74c3c;
+  }
